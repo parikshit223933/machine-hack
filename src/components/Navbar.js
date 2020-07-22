@@ -6,7 +6,7 @@ import dp from "../website-Resources/profile-picture.jpg";
 class Navbar extends React.Component {
 	render() {
 		return (
-			<div className="navbar navbar-expand-lg navbar-light bg-white">
+			<div className="navbar navbar-expand-lg navbar-light bg-white mb-3">
 				<a className="navbar-brand" href="/">
 					<img src={logo} alt="website-logo" />
 				</a>

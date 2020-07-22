@@ -1,76 +1,84 @@
-.App
-{
-    height:100%;
-    width:100%;
+.App {
+	height: 100%;
+	width: 100%;
 }
-.navbar
-{
-    box-shadow:0px 0px 1px 1px rgb(231, 231, 231);
+.navbar {
+	box-shadow: 0px 0px 1px 1px rgb(231, 231, 231);
 }
-.search-box
-{
-    position:relative;
+.search-box {
+	position: relative;
 }
-.search-box>input
-{
-    border:none;
+.search-box > input {
+	border: none;
 }
-.search-box>input:enabled
-{
-    outline: 0px;
+.search-box > input:enabled {
+	outline: 0px;
 }
-.search-button
-{
-    position:absolute;
-    left:0px;
-    top:10%;
+.search-button {
+	position: absolute;
+	left: 0px;
+	top: 10%;
 }
-.more-button
-{
-    margin-left:6%;
-    margin-right:3%;
+.more-button {
+	margin-left: 6%;
+	margin-right: 3%;
 }
-.user-image-container
-{
-    width:50px;
-    height:50px;
-    border-radius: 50%;
+.user-image-container {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
 }
-.user-image-container>img
-{
-    width:100%;
-    height:100%;
-    border-radius: inherit;
+.user-image-container > img {
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
 }
-.bell-icon
-{
-    font-size:22px;
-    position:relative;
+.bell-icon {
+	font-size: 22px;
+	position: relative;
 }
-.settings-icon
-{
-    font-size:22px;
-    position: relative;
+.settings-icon {
+	font-size: 22px;
+	position: relative;
 }
-.dot1
-{
-    position:absolute;
-    background-color:rgb(255, 0, 106);
-    border-radius: 50%;
-    width:8px;
-    border:1px solid white;
-    height:8px;
-    top:0%;
-    right:0%;
+.dot1 {
+	position: absolute;
+	background-color: rgb(255, 0, 106);
+	border-radius: 50%;
+	width: 8px;
+	border: 1px solid white;
+	height: 8px;
+	top: 0%;
+	right: 0%;
 }
-.dot2
-{
-    position:absolute;
-    background-color:rgb(0, 155, 0);
-    border-radius: 50%;
-    width:8px;
-    border:1px solid white;
-    height:8px;
-    top:0%;
-    right:0%;
+.dot2 {
+	position: absolute;
+	background-color: rgb(0, 155, 0);
+	border-radius: 50%;
+	width: 8px;
+	border: 1px solid white;
+	height: 8px;
+	top: 0%;
+	right: 0%;
+}
+.left-menu-item {
+	height: 60px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 15%;
+	box-sizing: border-box;
+	cursor: pointer;
+    transition: border-left ease-in-out 0.1s;
+}
+.left-menu-item > p {
+	margin: 0px;
+}
+.left-menu-item:hover {
+	border-left: 5px solid #ff717a;
+    background-color: #f4f5f8;
+    color:rgb(255, 0, 128);
 }
