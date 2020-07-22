@@ -255,9 +255,6 @@
 .banner-menu-item:hover > p {
 	color: #fb879a !important;
 }
-.content-main {
-	border: 1px solid black;
-}
 @media screen and (max-width: 992px) {
 	.body-nav {
 		width: 100%;
@@ -297,4 +294,9 @@
 		background-color: #fa375a;
 		color: white;
 	}
+}
+/* GRAPH ////////////////////////////////////////////////////////////////// */
+.graph
+{
+    border:1px solid black;
 }

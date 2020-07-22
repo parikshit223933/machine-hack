@@ -1,6 +1,7 @@
 import React from "react";
 import pink from "../website-Resources/pink_svg.png";
 import spaceMan from "../website-Resources/space-man.png";
+import { AreaGraph } from "./";
 
 class CenterMain extends React.Component {
 	render() {
@@ -55,7 +56,7 @@ class CenterMain extends React.Component {
 								</p>
 							</div>
 						</div>
-						<div className="col-lg-11 p-1 graph">sdf</div>
+						<AreaGraph />
 					</div>
 				</div>
 			</div>
