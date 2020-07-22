@@ -4,82 +4,82 @@ import {
 	Area,
 	XAxis,
 	YAxis,
-	CartesianGrid,
 	Tooltip,
-	ResponsiveContainer
+    ResponsiveContainer,
+    CartesianGrid,
+    Label
 } from "recharts";
-import * as $ from "jquery";
 
 const data = [
 	{
 		name: "Jan",
-		uv: 4000,
+		uv: 21000,
 		pv: 2400,
 		amt: 2400
 	},
 	{
 		name: "Feb",
-		uv: 3000,
+		uv: 15000,
 		pv: 1398,
 		amt: 2210
 	},
 	{
 		name: "Mar",
-		uv: 2000,
+		uv: 20000,
 		pv: 9800,
 		amt: 2290
 	},
 	{
 		name: "Apr",
-		uv: 2780,
+		uv: 52780,
 		pv: 3908,
 		amt: 2000
 	},
 	{
 		name: "May",
-		uv: 1890,
+		uv: 22000,
 		pv: 4800,
 		amt: 2181
 	},
 	{
 		name: "Jun",
-		uv: 2390,
+		uv: 90000,
 		pv: 3800,
 		amt: 2500
 	},
 	{
 		name: "Jul",
-		uv: 3490,
+		uv: 120490,
 		pv: 4300,
 		amt: 2100
 	},
 	{
 		name: "Aug",
-		uv: 3490,
+		uv: 40490,
 		pv: 4300,
 		amt: 2100
 	},
 	{
 		name: "Sep",
-		uv: 3490,
+		uv: 11490,
 		pv: 4300,
 		amt: 2100
 	},
 	{
 		name: "Oct",
-		uv: 3490,
+		uv: 20490,
 		pv: 4300,
 		amt: 2100
 	},
 	{
 		name: "Nov",
-		uv: 3490,
+		uv: 50490,
 		pv: 4300,
 		amt: 2100
 	},
 	{
 		name: "Dec",
-		uv: 3490,
+		uv: 149000,
 		pv: 4300,
 		amt: 2100
 	}
@@ -88,11 +88,8 @@ const data = [
 class AreaGraph extends React.Component {
 	render() {
 		return (
-			<ResponsiveContainer
-				width="100%"
-				height={300}
-				className="col-lg-11 p-1 graph"
-			>
+			<ResponsiveContainer width="100%" height={300} debounce={1}>
+                
 				<AreaChart
 					data={data}
 					margin={{
@@ -100,17 +97,32 @@ class AreaGraph extends React.Component {
 						right: 10,
 						left: 0,
 						bottom: 0
-                    }}
+					}}
 				>
-					<CartesianGrid strokeDasharray="3 3" />
+					<defs>
+						<linearGradient
+							id="colorUv"
+							x1="0%"
+							y1="0%"
+							x2="100%"
+							y2="0%"
+						>
+							<stop offset="30%" stopColor="#fb9b48" />
+							<stop offset="70%" stopColor="#a862ff" />
+						</linearGradient>
+					</defs>
+                    
+                    <CartesianGrid vertical={false}/>
 					<XAxis dataKey="name" />
 					<YAxis />
 					<Tooltip />
 					<Area
 						type="monotone"
 						dataKey="uv"
-						stroke="#8884d8"
-						fill="#8884d8"
+						stroke="url(#colorUv)"
+						strokeWidth={4}
+						fill="url(#colorUv)"
+						fillOpacity={0.5}
 					/>
 				</AreaChart>
 			</ResponsiveContainer>

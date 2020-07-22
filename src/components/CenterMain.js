@@ -7,7 +7,7 @@ class CenterMain extends React.Component {
 	render() {
 		return (
 			<div className="center-main">
-				<div className="banner-main mb-2">
+				<div className="banner-main mb-4">
 					<div className="pink-color-svg">
 						<img src={pink} alt="pink-color-svg" />
 					</div>
@@ -56,7 +56,10 @@ class CenterMain extends React.Component {
 								</p>
 							</div>
 						</div>
-						<AreaGraph />
+						<div className="w-100 graph col-lg-11 p-3 graph">
+                            <h3 className="mb-3 text-secondary">Graph About Hackathon Activity</h3>
+							<AreaGraph />
+						</div>
 					</div>
 				</div>
 			</div>

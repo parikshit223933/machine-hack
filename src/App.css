@@ -1,7 +1,7 @@
-.App {
+/* .App {
 	height: 100%;
 	width: 100%;
-}
+} */
 /* NAVBAR COMPONENT //////////////////////////////////////////////// */
 .navbar {
 	box-shadow: 0px 0px 1px 1px rgb(231, 231, 231);
@@ -298,5 +298,7 @@
 /* GRAPH ////////////////////////////////////////////////////////////////// */
 .graph
 {
-    border:1px solid black;
+    height:400px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 7px 2px rgb(190, 190, 190);
 }
