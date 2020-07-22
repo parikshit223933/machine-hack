@@ -1,5 +1,5 @@
 import React from "react";
-import {LeftNav, CenterMain} from './';
+import {LeftNav, CenterMain, RightStats} from './';
 
 class Body extends React.Component {
 	render() {
@@ -12,7 +12,9 @@ class Body extends React.Component {
 					<div className="col-md-6 col-lg-7 p-1">
                         <CenterMain/>
                     </div>
-					<div className="col-md-3 col-lg-3 p-1"></div>
+					<div className="col-md-3 col-lg-3 p-1">
+                        <RightStats/>
+                    </div>
 				</div>
 			</div>
 		);
