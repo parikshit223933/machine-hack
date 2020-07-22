@@ -301,4 +301,31 @@
     height:400px;
     box-sizing: border-box;
     box-shadow: 0px 0px 7px 2px rgb(190, 190, 190);
+    position:relative;
+}
+.sorter
+{
+    position: absolute;
+    top:5%;
+    right:5%;
+}
+.sorter>div>button
+{
+    border-radius: 0px;
+    height:30px;
+}
+.sorter>div>button:hover
+{
+    background-color:white;
+    color:blue;
+}
+.ctt
+{
+    box-shadow: 0px 0px 1px 1px rgb(206, 206, 206);
+    background-color:rgba(255, 255, 255, 0.8);
+    font-size:16px;
+}
+.ctt p
+{
+    margin:0px;
 }

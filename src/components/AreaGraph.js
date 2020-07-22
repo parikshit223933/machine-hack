@@ -7,8 +7,8 @@ import {
 	Tooltip,
     ResponsiveContainer,
     CartesianGrid,
-    Label
 } from "recharts";
+import {CustomToolTip} from './';
 
 const data = [
 	{
@@ -115,7 +115,7 @@ class AreaGraph extends React.Component {
                     <CartesianGrid vertical={false}/>
 					<XAxis dataKey="name" />
 					<YAxis />
-					<Tooltip />
+					<Tooltip content={CustomToolTip} />
 					<Area
 						type="monotone"
 						dataKey="uv"

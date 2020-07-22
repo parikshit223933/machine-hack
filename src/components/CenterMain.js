@@ -56,9 +56,38 @@ class CenterMain extends React.Component {
 								</p>
 							</div>
 						</div>
-						<div className="w-100 graph col-lg-11 p-3 graph">
-                            <h3 className="mb-3 text-secondary">Graph About Hackathon Activity</h3>
+						<div className="w-100 graph col-lg-11 p-4 graph">
+							<h4 className="mb-3 text-secondary w-75">
+								Graph About Hackathon Activity
+							</h4>
 							<AreaGraph />
+							<div className="sorter">
+								<div className="btn-group">
+									<button
+										className="btn btn-outline-primary btn-sm dropdown-toggle"
+										type="button"
+										data-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false"
+									>
+										Sort By
+									</button>
+									<div
+										className="dropdown-menu dropdown-menu-right"
+										aria-labelledby="dropdownMenuLink"
+									>
+										<a className="dropdown-item" href="/">
+											Month
+										</a>
+										<a className="dropdown-item" href="/">
+											year
+										</a>
+										<a className="dropdown-item" href="/">
+											Day
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
