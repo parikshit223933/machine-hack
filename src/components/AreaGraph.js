@@ -14,74 +14,50 @@ const data = [
 	{
 		name: "Jan",
 		uv: 21000,
-		pv: 2400,
-		amt: 2400
 	},
 	{
 		name: "Feb",
 		uv: 15000,
-		pv: 1398,
-		amt: 2210
 	},
 	{
 		name: "Mar",
 		uv: 20000,
-		pv: 9800,
-		amt: 2290
 	},
 	{
 		name: "Apr",
 		uv: 52780,
-		pv: 3908,
-		amt: 2000
 	},
 	{
 		name: "May",
 		uv: 22000,
-		pv: 4800,
-		amt: 2181
 	},
 	{
 		name: "Jun",
 		uv: 90000,
-		pv: 3800,
-		amt: 2500
 	},
 	{
 		name: "Jul",
 		uv: 120490,
-		pv: 4300,
-		amt: 2100
 	},
 	{
 		name: "Aug",
 		uv: 40490,
-		pv: 4300,
-		amt: 2100
 	},
 	{
 		name: "Sep",
 		uv: 11490,
-		pv: 4300,
-		amt: 2100
 	},
 	{
 		name: "Oct",
 		uv: 20490,
-		pv: 4300,
-		amt: 2100
 	},
 	{
 		name: "Nov",
 		uv: 50490,
-		pv: 4300,
-		amt: 2100
 	},
 	{
 		name: "Dec",
 		uv: 149000,
-		pv: 4300,
-		amt: 2100
 	}
 ];
 
@@ -122,7 +98,7 @@ class AreaGraph extends React.Component {
 						stroke="url(#colorUv)"
 						strokeWidth={4}
 						fill="url(#colorUv)"
-						fillOpacity={0.5}
+						fillOpacity={0.1}
 					/>
 				</AreaChart>
 			</ResponsiveContainer>

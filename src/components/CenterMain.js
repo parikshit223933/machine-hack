@@ -2,6 +2,7 @@ import React from "react";
 import pink from "../website-Resources/pink_svg.png";
 import spaceMan from "../website-Resources/space-man.png";
 import { AreaGraph } from "./";
+import pink2 from "../website-Resources/pink2.png";
 
 class CenterMain extends React.Component {
 	render() {
@@ -56,7 +57,7 @@ class CenterMain extends React.Component {
 								</p>
 							</div>
 						</div>
-						<div className="w-100 graph col-lg-11 p-4 graph">
+						<div className="w-100 graph col-lg-11 p-4 graph mb-5">
 							<h4 className="mb-3 text-secondary w-75">
 								Graph About Hackathon Activity
 							</h4>
@@ -87,6 +88,122 @@ class CenterMain extends React.Component {
 										</a>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div className="rules p-3 mb-5">
+							<div className="rules-heading mb-3">
+								<div className="rules-pink">
+									<img src={pink2} alt="pink2" />
+								</div>
+								<div className="rules-text">
+									<h4 className="m-0">Rules</h4>
+								</div>
+							</div>
+							<div className="w-100 pl-1 pr-3">
+								<ul>
+									<li>
+										<h6>ONE ACCOUNT PER PARTICIPANT</h6>
+										<div>
+											<p>
+												One account per participant One
+												account per participant.
+												Submissions from multiple
+												accounts will lead to
+												disqualification The submission
+												limit for the hackathon is 10
+												per day after which the
+												submission will not be evaluated
+												All registered users are
+												eligible to participate in the
+												hackathon We ask that you
+												respect the spirit of the
+												competition and do not cheat
+											</p>
+										</div>
+										<div className="li-dot"></div><div className="left-line"></div>
+									</li>
+									<li>
+										<h6>
+											NO PRIVATE SHARING OUTSIDE TEAMS
+										</h6>
+										<div>
+											<p>
+												No private sharing outside teams
+												One account per participant.
+												Submissions from multiple
+												accounts will lead to
+												disqualification The submission
+												limit for the hackathon is 10
+												per day after which the
+												submission will not be evaluated
+												All registered users are
+												eligible to participate in the
+												hackathon We ask that you
+												respect the spirit of the
+												competition and do not cheat
+											</p>
+										</div>
+										<div className="li-dot"></div><div className="left-line"></div>
+									</li>
+									<li>
+										<h6>SUBMISSION LIMITS</h6>
+										<div>
+											<p>
+												Submission Limits One account
+												per participant. Submissions
+												from multiple accounts will lead
+												to disqualification The
+												submission limit for the
+												hackathon is 10 per day after
+												which the submission will not be
+												evaluated All registered users
+												are eligible to participate in
+												the hackathon We ask that you
+												respect the spirit of the
+												competition and do not cheat
+											</p>
+										</div>
+										<div className="li-dot"></div><div className="left-line"></div>
+									</li>
+									<li>
+										<h6>COMPETTION TIMELINE</h6>
+										<div>
+											<p>
+												Start Date: 19/5/2020 End Date:
+												19/11/2020
+											</p>
+										</div>
+										<div className="li-dot"></div><div className="left-line"></div>
+									</li>
+									<li>
+										<h6>COMPETITION-SPECIFIC TERMS</h6>
+										<div>
+											<p style={{marginBottom:'0px'}}>
+												WINNER LICENSE TYPE : Open
+												Source
+											</p>
+											<p>
+												DATA ACCESS AND USE : Any
+												purpose
+											</p>
+										</div>
+										<div className="li-dot"></div><div className="left-line"></div>
+									</li>
+									<li>
+										<h6>ELIGIBILITY</h6>
+										<div>
+											<p style={{marginBottom:'0px'}}>
+												WINNER LICENSE TYPE : Open
+												Source
+											</p>
+											<p>
+												DATA ACCESS AND USE : Any
+												purpose
+											</p>
+										</div>
+										<div className="li-dot"></div>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
