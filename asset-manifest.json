@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/analytics-india-magazine-intern-assignment/static/css/main.a9a52db7.chunk.css",
+    "main.js": "/analytics-india-magazine-intern-assignment/static/js/main.e55396b8.chunk.js",
+    "main.js.map": "/analytics-india-magazine-intern-assignment/static/js/main.e55396b8.chunk.js.map",
+    "runtime-main.js": "/analytics-india-magazine-intern-assignment/static/js/runtime-main.42f3f090.js",
+    "runtime-main.js.map": "/analytics-india-magazine-intern-assignment/static/js/runtime-main.42f3f090.js.map",
+    "static/js/2.d5137b04.chunk.js": "/analytics-india-magazine-intern-assignment/static/js/2.d5137b04.chunk.js",
+    "static/js/2.d5137b04.chunk.js.map": "/analytics-india-magazine-intern-assignment/static/js/2.d5137b04.chunk.js.map",
+    "index.html": "/analytics-india-magazine-intern-assignment/index.html",
+    "precache-manifest.2ce31f46300e11edc785e96cd7d92642.js": "/analytics-india-magazine-intern-assignment/precache-manifest.2ce31f46300e11edc785e96cd7d92642.js",
+    "service-worker.js": "/analytics-india-magazine-intern-assignment/service-worker.js",
+    "static/css/main.a9a52db7.chunk.css.map": "/analytics-india-magazine-intern-assignment/static/css/main.a9a52db7.chunk.css.map",
+    "static/js/2.d5137b04.chunk.js.LICENSE.txt": "/analytics-india-magazine-intern-assignment/static/js/2.d5137b04.chunk.js.LICENSE.txt",
+    "static/media/profile-picture.jpg": "/analytics-india-magazine-intern-assignment/static/media/profile-picture.fb139f70.jpg",
+    "static/media/space-man.png": "/analytics-india-magazine-intern-assignment/static/media/space-man.a8b9dfd1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42f3f090.js",
+    "static/js/2.d5137b04.chunk.js",
+    "static/css/main.a9a52db7.chunk.css",
+    "static/js/main.e55396b8.chunk.js"
+  ]
+}
