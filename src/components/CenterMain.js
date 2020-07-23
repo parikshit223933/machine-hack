@@ -99,7 +99,7 @@ class CenterMain extends React.Component {
 									<h4 className="m-0">Rules</h4>
 								</div>
 							</div>
-							<div className="w-100 pl-1 pr-3">
+							<div className="w-100 pl-1 pr-4">
 								<ul>
 									<li>
 										<h6>ONE ACCOUNT PER PARTICIPANT</h6>

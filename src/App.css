@@ -374,3 +374,13 @@ ul>li
     background-color: #fa375a;
     left:-22.5px;
 }
+
+/* RIGHT STATS COMPONENT //////////////////////////////////////// */
+.right-stats
+{
+    border:1px solid black;
+}
+.pie-chart-container
+{
+    height:200px;
+}

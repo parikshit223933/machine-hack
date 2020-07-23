@@ -4,7 +4,9 @@ import LeftNav from './LeftNav';
 import CenterMain from './CenterMain';
 import AreaGraph from './AreaGraph';
 import CustomToolTip from './CustomToolTip';
-import RightStats from './RightStats'
+import RightStats from './RightStats';
+import PieLegend from './PieLegend';
+
 export {
     Navbar,
     Body,
@@ -12,5 +14,6 @@ export {
     CenterMain,
     AreaGraph,
     CustomToolTip,
-    RightStats
+    RightStats,
+    PieLegend
 }
