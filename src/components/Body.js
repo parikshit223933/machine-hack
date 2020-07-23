@@ -9,10 +9,10 @@ class Body extends React.Component {
 					<div className="col-md-3 col-lg-2 p-1">
 						<LeftNav/>
 					</div>
-					<div className="col-md-6 col-lg-7 p-1">
+					<div className="col-md-6 col-lg-6 p-1">
                         <CenterMain/>
                     </div>
-					<div className="col-md-3 col-lg-3 p-1">
+					<div className="col-md-3 col-lg-4 p-1">
                         <RightStats/>
                     </div>
 				</div>

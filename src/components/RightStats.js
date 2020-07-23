@@ -10,7 +10,7 @@ const data = [
 		secondaryColor: "#fbafbd"
 	},
 	{
-		name: "Group D",
+		name: "Group B",
 		value: 800,
 		color: "#dce9f2",
 		secondaryColor: "#f1f6fa"
@@ -22,7 +22,7 @@ const data = [
 		secondaryColor: "#ffe3e8"
 	},
 	{
-		name: "Group B",
+		name: "Group D",
 		value: 300,
 		color: "#ff6581",
 		secondaryColor: "#ffc1cd"
@@ -31,11 +31,11 @@ const data = [
 class RightStats extends React.Component {
 	render() {
 		return (
-			<div className="right-stats">
+			<div className="right-stats mt-5 ml-lg-5 mr-lg-5 pl-lg-3 pr-lg-3 pt-3 pb-5">
 				<div>
 					<p
-						style={{ fontSize: "25px", color: "#fc7a90" }}
-						className="ml-2"
+                        style={{ fontSize: "25px", color: "#fc7a90" }}
+                        className="pl-md-3 pl-lg-0"
 					>
 						General Statistics
 					</p>
