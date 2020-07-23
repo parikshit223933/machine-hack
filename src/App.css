@@ -162,7 +162,7 @@
 }
 @media screen and (min-width: 1000px) {
 	.banner-heading {
-        top:40%;
+		top: 40%;
 		font-size: 40px;
 	}
 }
@@ -327,8 +327,23 @@
 
 /* RULES COLUMN //////////////////////////////////////////////////////// */
 .rules {
-    width: 100%;
-    box-shadow:0px 0px 7px 2px rgb(209, 209, 209);
+	width: 100%;
+	position: relative;
+	box-shadow: 0px 0px 7px 2px rgb(209, 209, 209);
+}
+.notebook {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	opacity: 0.5;
+	z-index: -1;
+}
+.thread {
+	position: absolute;
+	bottom: 113.4px;
+	right: 9px;
+	opacity: 0.5;
+	z-index: -1;
 }
 .rules-heading {
 	width: 100px;
@@ -348,75 +363,68 @@
 	left: 21%;
 	color: #eb3556;
 }
-ul
-{
-    list-style: none;
+ul {
+	list-style: none;
 }
-ul>li
-{
-    position:relative;
+ul > li {
+	position: relative;
 }
-.li-dot
-{
-    position:absolute;
-    height:10px;
-    width:10px;
-    border-radius: 50%;
-    background-color:#fa375a;
-    top:5px;
-    left:-26px;
+.li-dot {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: #fa375a;
+	top: 5px;
+	left: -26px;
 }
-.left-line
-{
-    width:3px;
-    height:121%;
-    position:absolute;
-    top:10px;
-    background-color: #fa375a;
-    left:-22.5px;
+.left-line {
+	width: 3px;
+	height: 121%;
+	position: absolute;
+	top: 10px;
+	background-color: #fa375a;
+	left: -22.5px;
 }
 
 /* RIGHT STATS COMPONENT //////////////////////////////////////// */
-.right-stats
-{
-    box-shadow: 0px 0px 7px 2px rgb(218, 218, 218);
+.right-stats {
+	box-shadow: 0px 0px 7px 2px rgb(218, 218, 218);
 }
-.pie-chart-container
-{
-    height:500px;
+.pie-chart-container {
+	height: 500px;
 }
 
-.circle
-{
-    position:relative;
-    height:30px;
-    width:30px;
-    border-radius: 50%;
+.circle {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
 }
-.inner-circle
-{
-    position:absolute;
-    height:15px;
-    width:15px;
-    border-radius: inherit;
-    background-color:white;
-    top:25%;
-    left:25%;
+.inner-circle {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: inherit;
+	background-color: white;
+	top: 25%;
+	left: 25%;
 }
-.circle~div>p
-{
-    margin:0px;
+.circle ~ div > p {
+	margin: 0px;
 }
-.single-pie-legend
-{
-    position:relative;
+.single-pie-legend {
+	position: relative;
 }
-.coverer
-{
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 25%, rgba(0, 0, 0, 0) 75%);
+.coverer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0.4) 25%,
+		rgba(0, 0, 0, 0) 75%
+	);
 }

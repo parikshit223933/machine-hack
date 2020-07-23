@@ -3,6 +3,8 @@ import pink from "../website-Resources/pink_svg.png";
 import spaceMan from "../website-Resources/space-man.png";
 import { AreaGraph } from "./";
 import pink2 from "../website-Resources/pink2.png";
+import notebook from '../website-Resources/notebook.png';
+import thread from '../website-Resources/thread.png';
 
 class CenterMain extends React.Component {
 	render() {
@@ -58,7 +60,7 @@ class CenterMain extends React.Component {
 							</div>
 						</div>
 						<div className="w-100 graph col-lg-11 p-4 graph mb-5">
-							<h4 className="mb-3 text-secondary w-75">
+							<h4 className="mb-4 text-secondary w-75">
 								Graph About Hackathon Activity
 							</h4>
 							<AreaGraph />
@@ -205,6 +207,12 @@ class CenterMain extends React.Component {
 									</li>
 								</ul>
 							</div>
+                            <div className="thread">
+                                <img src={thread} alt="thread"/>
+                            </div>
+                            <div className="notebook">
+                                <img src={notebook} alt="notebook" />
+                            </div>
 						</div>
 					</div>
 				</div>
