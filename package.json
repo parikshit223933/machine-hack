@@ -1,17 +1,16 @@
 {
-	"homepage": "http://parikshit223933.github.io/analytics-india-magazine-intern-assignment",
+	"homepage": "http://parikshit223933.github.io/machine-hack",
 	"name": "analytics-india-magazine-intern-assignment",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/jest-dom": "^5.16.1",
 		"@testing-library/react": "^9.5.0",
 		"@testing-library/user-event": "^7.2.1",
-		"gh-pages": "^3.1.0",
 		"jquery": "^3.5.1",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-scripts": "3.4.1",
+		"react-scripts": "^5.0.0",
 		"recharts": "^1.8.5"
 	},
 	"scripts": {
@@ -36,5 +35,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^3.2.3"
 	}
 }
